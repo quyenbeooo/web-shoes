@@ -1,0 +1,76 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+.scroll-container {
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang */
+}
+
+.scroll-container:hover {
+  overflow-x: auto; /* Kích hoạt cuộn ngang khi hover vào container */
+}
+.customs_img {
+  width: 45%;
+}
+.detail-text {
+  font-weight: bold;
+}
+.placeholder-custom::placeholder {
+  color: #999; /* Màu chữ của placeholder */
+  font-size: 16px; /* Kích thước chữ của placeholder */
+  font-style: italic; /* Phong cách chữ của placeholder */
+  padding: 20px;
+}
+html {
+  overflow-x: hidden;
+}
+.cutom_Swiper .custom-swiper {
+  display: flex;
+  gap: 50px; /* Thay đổi khoảng cách giữa các slide */
+}
+
+.custom-swiper .swiper-slide {
+  width: 120px !important; /* Force each slide to be 120px wide */
+  margin-right: 25px !important; /* Ensure there's 25px space between slides */
+}
+.custom-gradient {
+  background: linear-gradient(45deg, #4ba098, transparent);
+}
